@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <title>Meipaly</title>
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Font awesome. Both ways are correct.-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Slick -->
+    <!-- click Download Now, extract and bring the folder to you VS code folder -->
+    <!-- https://kenwheeler.github.io/slick/ -->
+    <!-- https://cdnjs.com/libraries/slick-carousel -->
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css" />
+
+    <!-- https://www.jqueryscript.net/other/Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js.html -->
+    
+    <!-- fancy app -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+
+    <!-- in case of conflicts, the lower tag will take precedence, so you alwasy want your main css at the bottom -->
+    <!-- main css -->
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <!-- HEADER starts-->
+    <header>
+      <div class="container header_container">
+        <!-- span is an inline element, hence nav  -->
+        <span class="logo">Meipaly</span>
+        <nav>
+          <a class="active" href="#">HOME</a>
+          <a href="#">SERVICE</a>
+          <a href="#">SHOWCASE</a>
+          <a href="#">BLOG</a>
+          <a href="#">ABOUT US</a>
+          <a href="#">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+    <!-- HEADER ends -->
+
+    <!-- BANNER starts -->
+    <section class="banner">
+      <div class="banner__container">
+        <h2>WELCOME TO MEIPALY AGENCY</h2>
+        <p>SMART WEB DESIGN AGENCY</p>
+        <button>READ MORE</button> <br>
+        <!-- https://glyphsearch.com/ -->
+        <i class="fa fa-angle-down"></i>
+      </div>
+    </section>
+    <!-- BANNER ends-->
+
+    <!-- CAROUSEL starts -->
+    <section class="carousel">
+      <div class="container">
+        <div class="carousel__list">
+          <div class="carousel__item">
+            <div class="item__container">
+              <i class="fab fa-airbnb"></i>
+              <p>Website<br>Development</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="item__container">
+              <i class="fa fa-mobile-alt"></i>
+              <p>Mobile<br>Development</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="item__container">
+              <i class="fab fa-airbnb"></i>
+              <p>Website<br>Development</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="item__container">
+              <i class="fab fa-app-store-ios"></i>
+              <p>Application<br>Development</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="item__container">
+              <i class="fab fa-digital-ocean"></i>
+              <p>Digital<br>Marketing</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="item__container">
+              <i class="fab fa-airbnb"></i>
+              <p>Website<br>Development</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="item__container">
+              <i class="fab fa-airbnb"></i>
+              <p>Website<br>Development</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="item__container">
+              <i class="fab fa-airbnb"></i>
+              <p>Website<br>Development</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CAROUSEL ends -->
+
+    <!-- BLOGS starts -->
+    <!-- in Grid, parents control children -->
+    <section class="blogs">
+      <div class="container blogs_container">
+        <div class="blogs__item item__1">
+          <img src="./image-video/grid-metro-1.jpg" alt="">
+          <div class="blogs__overlay">
+            <div class="blogs__search">
+              <a href="./image-video/grid-metro-3.jpg" 
+                data-fancybox="gallery" data-caption="Single image">
+                <i class="fa fa-search-plus"></i>
+              </a>
+              </a>
+            </div>
+            <div class="blogs__logo">
+              <p>LOGO</p>
+              <h4>FLIPPIN BIRD</h4>
+            </div>
+          </div>
+        </div>
+        <div class="blogs__item item__2">
+          <img src="./image-video/grid-metro-2.jpg" alt="">
+          <div class="blogs__overlay">
+            <div class="blogs__search">
+              <a href="./image-video/grid-metro-2.jpg" 
+                data-fancybox="gallery" data-caption="Single image">
+                <a href="./image-video/grid-metro-3.jpg" 
+                data-fancybox="gallery" data-caption="Single image">
+                <i class="fa fa-search-plus"></i>
+                </a>
+              </a>
+            </div>
+            <div class="blogs__logo">
+              <p>LOGO</p>
+              <h4>FLIPPIN BIRD</h4>
+            </div>
+          </div>
+        </div>
+        <div class="blogs__item item__3">
+          <img src="./image-video/grid-metro-3.jpg" alt="">
+          <div class="blogs__overlay">
+            <div class="blogs__search">
+              <a href="./image-video/grid-metro-3.jpg" 
+                data-fancybox="gallery" data-caption="Single image">
+                <i class="fa fa-search-plus"></i>
+              </a>
+            </div>
+            <div class="blogs__logo">
+              <p>LOGO</p>
+              <h4>FLIPPIN BIRD</h4>
+            </div>
+          </div>
+        </div>
+        <div class="blogs__item item__4">
+          <img src="./image-video/grid-metro-4.jpg" alt="">
+          <div class="blogs__overlay">
+            <div class="blogs__search">
+              <a href="./image-video/grid-metro-3.jpg" 
+                data-fancybox="gallery" data-caption="Single image">
+                <i class="fa fa-search-plus"></i>
+              </a>
+            </div>
+            <div class="blogs__logo">
+              <p>LOGO</p>
+              <h4>FLIPPIN BIRD</h4>
+            </div>
+          </div>
+        </div>
+        <div class="blogs__item item__5">
+          <img src="./image-video/grid-metro-5.jpg" alt="">
+          <div class="blogs__overlay">
+            <div class="blogs__search">
+              <a href="./image-video/grid-metro-3.jpg" 
+                data-fancybox="gallery" data-caption="Single image">
+                <i class="fa fa-search-plus"></i>
+              </a>
+            </div>
+            <div class="blogs__logo">
+              <p>LOGO</p>
+              <h4>FLIPPIN BIRD</h4>
+            </div>
+          </div>
+        </div>
+        <div class="blogs__item item__6">
+          <img src="./image-video/grid-metro-6.jpg" alt="">
+          <div class="blogs__overlay">
+            <div class="blogs__search">
+              <a href="./image-video/grid-metro-3.jpg" 
+                data-fancybox="gallery" data-caption="Single image">
+                <i class="fa fa-search-plus"></i>
+              </a>
+            </div>
+            <div class="blogs__logo">
+              <p>LOGO</p>
+              <h4>FLIPPIN BIRD</h4>
+            </div>
+          </div>
+        </div>
+        <div class="blogs__item item__7">
+          <img src="./image-video/grid-metro-7.jpg" alt="">
+          <div class="blogs__overlay">
+            <div class="blogs__search">
+              <a href="./image-video/grid-metro-3.jpg" 
+                data-fancybox="gallery" data-caption="Single image">
+                <i class="fa fa-search-plus"></i>
+              </a>
+            </div>
+            <div class="blogs__logo">
+              <p>LOGO</p>
+              <h4>FLIPPIN BIRD</h4>
+            </div>
+          </div>
+        </div>
+        <div class="blogs__item item__8">
+          <img src="./image-video/grid-metro-8.jpg" alt="">
+          <div class="blogs__overlay">
+            <div class="blogs__search">
+              <a href="./image-video/grid-metro-3.jpg" 
+                data-fancybox="gallery" data-caption="Single image">
+                <i class="fa fa-search-plus"></i>
+              </a>
+            </div>
+            <div class="blogs__logo">
+              <p>LOGO</p>
+              <h4>FLIPPIN BIRD</h4>
+            </div>
+          </div>
+        </div>
+        <div class="blogs__item item__9">
+          <img src="./image-video/grid-metro-9.jpg" alt="">
+          <div class="blogs__overlay">
+            <div class="blogs__search">
+              <a href="./image-video/grid-metro-3.jpg" 
+                data-fancybox="gallery" data-caption="Single image">
+                <i class="fa fa-search-plus"></i>
+              </a>
+            </div>
+            <div class="blogs__logo">
+              <p>LOGO</p>
+              <h4>FLIPPIN BIRD</h4>
+            </div>
+          </div>
+        </div>
+        <div class="blogs__item item__10">
+          <img src="./image-video/grid-metro-10.jpg" alt="">
+          <div class="blogs__overlay">
+            <div class="blogs__search">
+              <a href="./image-video/grid-metro-3.jpg" 
+                data-fancybox="gallery" data-caption="Single image">
+                <i class="fa fa-search-plus"></i>
+              </a>
+            </div>
+            <div class="blogs__logo">
+              <p>LOGO</p>
+              <h4>FLIPPIN BIRD</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- BLOGS ends -->
+
+    <!-- STATS starts -->
+    <!-- justify-content -->
+    <section class="stats">
+      <div class="container stats__container">
+        <div class="stats__item">
+          <h2 class="stats__number">8,705</h2>
+          <p class="stats__title">PROJECTS COMPLETED</p>
+        </div>
+        <div class="stats__item">
+          <h2 class="stats__number">480</h2>
+          <p class="stats__title">ACTIVE CLIENTS</p>
+        </div>
+        <div class="stats__item">
+          <h2 class="stats__number">625</h2>
+          <p class="stats__title">CUPS OF COFFEE</p>
+        </div>
+        <div class="stats__item">
+          <h2 class="stats__number">9,774</h2>
+          <p class="stats__title">HAPPY CLIENTS</p>
+        </div>
+      </div>
+    </section>
+    <!-- STATS ends -->
+
+    <section class="experience">
+
+    </section>
+
+    <!-- CONTACT starts -->
+    <section class="contact">
+      <div class="container contact__container">
+        <div class="contact__map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3343.8684359000104!2d-96.75773539068146!3d33.059930369367116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c22a41b4c5439%3A0x4f5cac883232311a!2s3227%20Topaz%20Way%2C%20Plano%2C%20TX%2075023!5e0!3m2!1sen!2sus!4v1688436336012!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <form class="contact__form">
+          <input type="text" placeholder="Your name"/>
+          <input type="email" placeholder="Email address"/>
+          <textarea  placeholder="Ask a question"></textarea>
+          <button>Submit</button>
+        </form>
+      </div>
+    <!-- CONTACT ends -->
+
+    </section>
+    <footer></footer>
+
+    <!-- jquerry -->
+    <!-- slick-dots -->
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./slick-1.8.1/slick/slick.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".carousel__list").slick({
+          //setting-name: setting-value
+          infinite: true,
+          slidesToShow: 5,
+          slidesToScroll: 3,
+          arrows: false,
+          dots: true,
+        });
+      });
+    </script>
+
+    <!-- counting up -->
+    <!-- waypoints -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- countup.js -->
+    <script src="./Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/jquery.countup.min.js"></script>
+    <!-- setting countup -->
+    <script>
+      $('.stats__number').countUp();
+    </script>
+    
+    <!-- fancy apps -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+      Fancybox.bind('[data-fancybox="gallery"]', {
+      // Your custom options
+    });</script>
+  </body>
+</html>
+
+ <!-- shortcut to wrap elemnts:
+alt where you need the cursor to be,  ctrl shft p, wrap with,  enter, alt (down)  -->
+
